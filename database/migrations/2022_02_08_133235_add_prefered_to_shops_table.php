@@ -14,7 +14,7 @@ class AddPreferedToShopsTable extends Migration
     public function up()
     {
         Schema::table('shops', function (Blueprint $table) {
-           $table->boolean('prefered');    
+           $table->boolean('prefered')->default(0);    
         });
     }
 
