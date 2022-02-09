@@ -1,8 +1,10 @@
   $(document).ready(function(){
-               $("#iranian").click(function(){
+            $("#iranian").click(function(){
               $("#passport").hide();
+              $("#passport_field").val("Iran");
             });
             $("#foreign").click(function(){
               $("#passport").show();
+              $("#passport_field").val("")
             });
   });

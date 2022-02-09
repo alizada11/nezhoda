@@ -67,7 +67,7 @@
                       <div class="form-group mb-4" id="passport" style="display: none;">
                           <label class="col-md-12 control-label" for="textarea">Country </label>
                           <div class="col-md-12">                     
-                             <input id="textinput" value="Iran" name="country" type="text" placeholder="Type Your Country" class="form-control input-md">
+                             <input id="passport_field" value="Iran" name="country" type="text" placeholder="Type Your Country" class="form-control input-md">
                           </div>
                       </div>
                       <!-- Textarea -->

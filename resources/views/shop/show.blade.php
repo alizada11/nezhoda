@@ -44,7 +44,7 @@
                             <td>{{ $shop->category }}</td>
                             <td>{{ $shop->country }}</td>
                             <td>{{ $shop->address }}</td>
-                            <td class="text-center"><a href="{{ route('prefered') }}" class="prefered"><i class="fa fa-heart"></i></a></td>
+                            <td class="text-center"><a href="#" class="prefered"><i class="fa fa-heart"></i></a></td>
                         </tr>
                         @endforeach
                     </table>
